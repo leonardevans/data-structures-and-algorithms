@@ -18,7 +18,17 @@ Tree where each node has at most two children
 */
 
 // implementing a binary tree
+// we use a queue to implement breadth first traversal
+// breadth first traversal
+/*
+            a
+           / \
+          b   c
+        /   \    \
+       d     e     f
 
+a, b, c, d, e, f
+*/
 class Node{
     constructor(val){
         this.val = val;
@@ -38,7 +48,7 @@ a.left = b;
 a.right = c;
 b.left = d;
 b.right = e;
-e.right = f;
+c.right = f;
 
 const breadthFirstPrint = (root) =>{
     const queue = [root];
@@ -46,6 +56,7 @@ const breadthFirstPrint = (root) =>{
         const curr = queue.shift();
         console.log(curr.val);
 
+        // since its breadth first traversal, we add our curr's left first, then its right
         if(curr.left !== null){
             queue.push(curr.left);
         }
