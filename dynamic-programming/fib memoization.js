@@ -22,8 +22,10 @@ const fib = (n) => {
 // using memoization
 
 const fibMemo = (n, memo = {}) => {
-    //check if the key n is in the momo object
+    //check if the key n is in the memo object
     if(n in memo) return memo[n]
+
+    if (n <= 0) return 0
 
     if (n <= 2) return 1
 
@@ -35,4 +37,4 @@ const fibMemo = (n, memo = {}) => {
 console.log(fibMemo(6));
 console.log(fibMemo(7));
 console.log(fibMemo(8));
-console.log(fibMemo(50));
+console.log(fibMemo(1000));
