@@ -20,10 +20,8 @@ const howSum = (targetSum, numbers) => {
             }
         }
     }
-
     return table[targetSum]
 }
-
 // m = targetSum, n = numbers.length
 // Time: O(m^2n), Space: O(m^m)
 
