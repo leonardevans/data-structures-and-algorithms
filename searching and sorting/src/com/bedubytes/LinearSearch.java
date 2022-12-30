@@ -11,7 +11,8 @@ public class LinearSearch {
 
     public static void main(String[] args) {
         int[] arr = new int[]{8, 4, 67, 1, 97, 43};
+        int search = 67;
         LinearSearch linearSearch = new LinearSearch();
-        System.out.println(  8 +" Fount = " + linearSearch.search(arr, 8));
+        System.out.println(search   +" Found at index " + linearSearch.search(arr, search));
     }
 }
