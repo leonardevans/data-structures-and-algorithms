@@ -17,6 +17,7 @@ public class AllConstruct {
             List<List<String>> nothing = new ArrayList<>();
             List<String>   nothi = new ArrayList<>();
             nothing.add(nothi);
+            System.out.println("nothing " + nothing);
             return  nothing;
         }
 
