@@ -3,7 +3,7 @@ package com.bedubytes;
 /*
 - It is also called as sinking sort
 - While applying this sorting algorithm on unsorted array, the largest elements tend to sink at the end of the array
-- It repeatedly compares pair of adjacent elements and swap them if they are in wrong order
+- It repeatedly compares a pair of adjacent elements and swap them if they are in wrong order
 */
 
 public class BubbleSort{
@@ -13,8 +13,10 @@ public class BubbleSort{
         boolean isSwapped;
 
         for(int i = 0; i < n; i++){
+            System.out.println("i= " + i);
             isSwapped = false;
             for(int j = 0; j < n-1-i; j++){
+                System.out.println("j= " + j);
                 if(arr[j] > arr[j+1]){
                     int temp = arr[j];
                     arr[j] = arr[j+1];
