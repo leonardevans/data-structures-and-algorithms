@@ -36,8 +36,6 @@ public class Main {
         int number4 = 100;
         int[] numbers4 = new int[]{1, 2, 5, 25};
 
-//        System.out.println(CountConstruct.countConstructMemo(word3, wordBank3, new HashMap<>()));
-
-        System.out.println(Fibonacci.fibonacciMemo(20, new HashMap<>()));
+        System.out.println(GridTraveler.gridTravelerMemo(3, 3, new HashMap<>()));
     }
 }
