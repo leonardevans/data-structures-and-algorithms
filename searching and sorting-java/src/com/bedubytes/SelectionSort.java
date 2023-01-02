@@ -3,8 +3,8 @@ package com.bedubytes;
 public class SelectionSort {
 /*
 In selection sort, we divide the given array into two parts - sorted part and unsorted part
-The algorithm sorts and array by repeatedly finding the minimum un an unsorted array and making  it part of the sorted array
-From unsorted part we pick the minimum element and swap it with the leftmost element of unsorted part. After swap, thet element now becomes part of sorted array.
+The algorithm sorts an array by repeatedly finding the minimum in an unsorted array and making  it part of the sorted array
+From unsorted part we pick the minimum element and swap it with the leftmost element of unsorted part. After swap, the element now becomes part of sorted array.
 It's repeated until the unsorted part of the array is empty
  */
     public void sort(int[] arr){
