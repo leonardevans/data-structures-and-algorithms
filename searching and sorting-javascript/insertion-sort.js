@@ -11,14 +11,19 @@ function insertionSort (array){
         let temp = array[i]
         let j = i-1
 
+        console.log('j before while loop', j);
+
         while (j >= 0 &&  array[j] > temp) {
-            array[i] = array[j]
-            array[j] = temp
+            array[j+1] = array[j]
+            j--
         }
+
+        console.log('j after while loop', j);
+        array[j+1] = temp
     }
 
     return array
 }
 
-let array = [5, 1, 2, 9, 10]
+let array = [5, 1, 9, 2, 10, 90, 32, 29, 54, 3]
 console.log(insertionSort(array));
