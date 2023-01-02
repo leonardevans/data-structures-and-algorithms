@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recursion</title>
-</head>
-<body>
-<script type="text/javascript">
-    // Recursion
-    // Important of recursion in data structures and algorithms
-    /*
-    Helps us implement solutions in some tough problems in an elegant way
-    It acts as a baseline for which we implement other more advanced algorithms
-    */
+
+// Recursion
+// Important of recursion in data structures and algorithms
+/*
+Helps us implement solutions in some tough problems in an elegant way
+It acts as a baseline for which we implement other more advanced algorithms
+*/
 
 //    Learning Objectives
 /*
@@ -77,7 +68,3 @@ console.log(factorial(5)); //120
 /*
 Reviewd the structure of simple recursion 
 */
-
-</script>
-</body>
-</html>

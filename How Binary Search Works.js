@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Binary Search</title>
-</head>
-<body>
-<script type="text/javascript">
+
 // To use binary search the array must be sorted first to be able to apply the binary search 
 // Scenario 1: Searching for a target that exists
 // Target = 7
@@ -96,6 +87,3 @@ console.log('index of 19 is: ', binarySearch1(nums, 19)); //returns 7
 /*
 The iterative approach is better in terms of space complexity
 */
-</script>
-</body>
-</html>
