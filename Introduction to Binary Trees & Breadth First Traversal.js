@@ -69,13 +69,11 @@ const breadthFirstPrint = (root) =>{
 
 breadthFirstPrint(a);
 
-
 // Breadth First Search Sample Problem 1
 /*
 Write a function, bfs(root, target), that takes in the root of a binary tree and a target value as arguments
 The function should return a boolean indicating whether or not the tree contains the target value
 */
-
 
 const breadthFirstSearch = (root, target) =>{
     const queue = [root];

@@ -68,6 +68,5 @@ console.log("size : ",myQueue.size);
 console.log("front ", myQueue.front.val);
 console.log("back: ", myQueue.back.val);
 
-
 // Recap
 // reviewed the fundamental structure of queues (FIFO)

@@ -120,13 +120,13 @@ linear2(5);
 // 1
 
 
-// 4. Loglinear/linear arithmetic - O(n*log(n))
+// 4. Loglinear/linear logarithmic - O(n*log(n))
 /*
 has linear behavior nested in log steps
 bigger than O(n) but smaller than O(n^2)
 */
 
-console.log('4. Loglinear/linear arithmetic - O(n*log(n)) example 1');
+console.log('4. Loglinear/linear logarithmic - O(n*log(n)) example 1');
 // O(n*log(n)) example 1
 const loglinear1 = (str) => {
     console.log(str);
@@ -143,7 +143,7 @@ loglinear1("abcdefghijklmnopqrstuvwxyz");
 // a
 // (n/2) * log(n) = n * log(n)
 
-console.log('4. Loglinear/linear arithmetic - O(n*log(n)) example 2');
+console.log('4. Loglinear/linear logarithmic - O(n*log(n)) example 2');
 // O(n*log(n)) example 2
 const loglinear2 = (array) => {
     let str = "";
@@ -341,7 +341,7 @@ const crossPairs = (array1, array2) => {
 let colors = ['yellow', 'teal', 'navy', 'white'];
 let clothes = ['shirt', 'jeans', 'skirt'];
 crossPairs(colors, clothes);
-// O(m+n) time complexity where m and n are input numbers
+// O(m*n) time complexity where m and n are input numbers
 
 const multi2 = (str1, str2) => {
     if(str1.length > str2.length){

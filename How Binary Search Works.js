@@ -50,7 +50,7 @@ function binarySearch(array, target) {
             left = mid + 1;
         }
     }
-    return false;
+    return -1;
 }
 console.log('index of 7 is: ', binarySearch(nums, 7)); //returns 1
 console.log('index of 15 is: ', binarySearch(nums, 15)); //returns false

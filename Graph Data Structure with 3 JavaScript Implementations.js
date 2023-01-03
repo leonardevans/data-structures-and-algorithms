@@ -10,7 +10,7 @@ Cyclic vs Acyclic graphs
 
 // WHat is a graph
 /*
-A data structure made up of nodes or vertices and edgesor the connections between nodes
+A data structure made up of nodes or vertices and edges or the connections between nodes
 Typically, a visualization of a graph will be of nodes represented by circles and edges as lines between the circles
 */
 
@@ -259,7 +259,7 @@ console.log(nodeA.isConnected(nodeB));
 /*
 - In a Directed Graph, connections between nodes have direction
 - The internet can be modeled as a directed graph where individual web pages are nodes and links between the pages are directed edges
-- Links are directed - just because on page links to another, doesn't mean that page links back in return
+- Links are directed - just because one page links to another, doesn't mean that page links back in return
 - The degree of a node is the number of edges connected to the node
 - In a directed graph, nodes have an indegree or edges pointing to it and an outdegree or edges pointing from it(edges it is pointing to)
 */

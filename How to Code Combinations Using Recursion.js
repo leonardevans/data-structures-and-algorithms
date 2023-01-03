@@ -12,7 +12,7 @@ Field of math concerned with counting things
 
 // Common Questions
 /*
-Giving N things, in how many ways we can arrange them
+Given N things, in how many ways we can arrange them
 In how many ways we can we do X
 What is the shortest way to do Y
 */
@@ -64,15 +64,15 @@ return _combs(elements, elements[0], elements.slice(1));
 };
 
 const _combs = (array, firstEl, rest) => {
-// Return 2D Array if array has no values
-if (array.length === 0) return [[]];
-const combsWithoutFirst = fastCombinations(rest);
-const combsWithFirst = [];
-// Iterate combinations without first element
-for (let comb of combsWithoutFirst) {
-// Add the first Element after the rest of combs
-const combWithFirst = [...comb, firstEl];
-combsWithFirst.push(combWithFirst);
-}
-return [...combsWithoutFirst, ...combsWithFirst];
+    // Return 2D Array if array has no values
+    if (array.length === 0) return [[]];
+    const combsWithoutFirst = fastCombinations(rest);
+    const combsWithFirst = [];
+    // Iterate combinations without first element
+    for (let comb of combsWithoutFirst) {
+        // Add the first Element after the rest of combs
+        const combWithFirst = [...comb, firstEl];
+        combsWithFirst.push(combWithFirst);
+    }
+    return [...combsWithoutFirst, ...combsWithFirst];
 };
